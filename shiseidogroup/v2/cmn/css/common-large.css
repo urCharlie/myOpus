@@ -1,0 +1,169 @@
+@media screen and (min-width: 1366px) {
+  /*==================================
+  header_large
+  ==================================*/
+  #header .wrap {
+    width: 1272px;
+  }
+
+  #nav-area {
+    width: 1272px;
+  }
+
+  /*==================================
+  footer_large
+  ==================================*/
+  #footer .wrap {
+    width: 1272px;
+  }
+
+  /*==================================
+  container
+  ==================================*/
+  #contents .wrap {
+    width: 1272px;
+    position: relative;
+  }
+
+  .contents-group {
+    width: 980px;
+  }
+
+  /*==================================
+  contents
+  ==================================*/
+  #contents {
+    min-height: 600px;
+  }
+
+  /*==================================
+  topicpath
+  ==================================*/
+  #topicpath {
+    width: 1272px;
+  }
+
+  /*==================================
+  sub_topics
+  ==================================*/
+  #sub-area {
+    width: 980px;
+  }
+
+  /*==================================
+  recommend
+  ==================================*/
+  #recommend-area {
+    width: 305px;
+    padding: 0;
+    float: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  #recommend-area .recommend-inner {
+    position: relative;
+    width: 255px;
+  }
+
+  #recommend-area .recommend-inner.animate {
+    -webkit-transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -moz-transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -ms-transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    -o-transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: top 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
+
+  #recommend-area .recommend-block li {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+
+  #recommend-area .recommend-block .img {
+    width: 110px;
+  }
+
+  #recommend-area .recommend-block .pannel_text_area {
+    width: 144px;
+  }
+
+  #recommend-area .recommend-block ul {
+    margin-left: 0;
+  }
+
+  .recommend-block#business-introduction ul li {
+    display: none;
+  }
+
+  .recommend-block#business-introduction ul li:first-child {
+    display: block;
+  }
+
+  /*==================================
+  extrabanner
+  ==================================*/
+  #extra-banner {
+    width: 1000px;
+  }
+}
+@media screen and (min-width: 1680px) {
+  /*==================================
+  container
+  ==================================*/
+  #contents .wrap {
+    width: 1573px;
+  }
+
+  .contents-group {
+    width: 980px;
+  }
+
+  /*==================================
+  header_large
+  ==================================*/
+  #header .wrap {
+    width: 1573px;
+  }
+
+  #nav-area {
+    width: 1573px;
+  }
+
+  /*==================================
+  footer
+  ==================================*/
+  #footer .wrap {
+    width: 1573px;
+  }
+
+  /*==================================
+  topicpath
+  ==================================*/
+  #topicpath {
+    width: 1573px;
+  }
+
+  /*==================================
+  recommend
+  ==================================*/
+  #recommend-area {
+    right: 177px;
+  }
+
+  /*==================================
+  extrabanner
+  ==================================*/
+  #extra-banner {
+    width: 1330px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1365px) {
+  /*==================================
+  recommend
+  ==================================*/
+  #recommend-area .recommend-inner {
+    position: static !important;
+  }
+}

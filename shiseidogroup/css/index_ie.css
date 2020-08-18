@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* ----------------------------------------
+ * SHISEIDO GROUP | CSS |  index
+ * ---------------------------------------- */
+
+
+/* --------------------
+ * font
+ */
+
+#mainview *,
+#news *,
+#whoweare *,
+#recommend *,
+#brands *,
+#feeds * {
+	font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",Arial,sans-serif;
+	font-weight: normal;
+}
+#mainview *.f_bold,
+#news *.f_bold,
+#whoweare *.f_bold,
+#recommend *.f_bold,
+#brands *.f_bold,
+#feeds *.f_bold {
+	font-weight: bold;
+}

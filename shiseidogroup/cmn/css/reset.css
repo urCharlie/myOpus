@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* Ver2.0.0-CLSTK-081215 */
+/* ----- Reset Element ----- */
+html {font-size:12px; }
+body {background-color:#FFFFFF; }
+body,div,dl,dt,dd,ul,ol,li,
+h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,
+p,blockquote,th,td {
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+	font-size:100%;
+}
+fieldset, a img, img {
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+a { outline:none; cursor:pointer; }
+img { border:0; vertical-align:bottom; }
+sup, sub { line-height:-1px; vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+object { border:none; outline:none; font-size:0; line-height:0; }
+/* ----- Utility Element ----- */
+/* -- vanish -- */
+.hide { display:none; }
+.vanish { left:-9999px; overflow:hidden; position:absolute; width:0; height:0; margin:0; padding:0; }
+
+/* -- strong --*/
+strong, .bold { font-weight:bold; }
+/* -- cap --*/
+.cap { margin:2px 0 0 0; padding-left:1em; text-indent:-1em; }
+/* -- clear -- */
+.clear { clear:both; }
+br.clear { display:block; clear:both; margin:0; padding:0; line-height:1%; font-size:1%; }
+/* -- clearfix -- */
+#header:after ,
+#contents:after ,
+#topicpath:after ,
+.group:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	font-size:0;
+	clear: both; 
+	visibility:hidden;
+}
+#header ,
+#contents ,
+#topicpath ,
+.group {display: inline-block;} 
+* html #header ,
+* html #contents ,
+* html #topicpath ,
+* html .group {height: 1%;}
+#header ,
+#contents ,
+#topicpath ,
+.group{display:block;}
+/* -- /clearfix -- */
+/* EOF*/

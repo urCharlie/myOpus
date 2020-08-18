@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Document</title>
+<!-- css -->
+<link rel="stylesheet" href="cmn/css/reset.css" media="all">
+<link rel="stylesheet" href="v2/cmn/css/layout.css" media="all">
+<link rel="stylesheet" href="cmn/css/print.css" media="print">
+<link rel="stylesheet" href="v2/cmn/css/common-default.css" media="all">
+<link rel="stylesheet" href="v2/cmn/css/common-large.css" media="all">
+<link rel="stylesheet" href="v2/cmn/css/common-small.css" media="screen and (max-width: 767px)">
+<link rel="stylesheet" href="css/index.css" media="all">
+<link rel="stylesheet" href="css/index-small.css" media="screen and (max-width: 767px)">
+<!--[if lt IE 9]><link rel="stylesheet" href="/css/index_ie.css" media="all"><![endif]-->
+	<!-- javascript -->
+<script src="v2/cmn/js/modernizr-2.6.2.min.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/html5shiv.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/jquery-1.11.1.min.js" charset="UTF-8"></script>
+</head>
+<body id="pagetop">
+<div class="container">
+	<div class="container_inner">
+	<!-- #header -->
+	<div id="header">
+		<div class="wrap">
+			<div class="icon_group"><a href=""><img src="v2/cmn/img/icon_shiseido_group.png" alt="SHISEIDO GROUP" /></a></div>
+			<ul class="nav accessible-utility vanish">
+				<li><a accesskey="2" href="#main">このページの本文へ</a></li>
+				<li><a accesskey="3" href="#footer">本Webサイトの規約関連ページへのリンクリストへ</a></li>
+				<li><a accesskey="4" href="#global-navi">各カテゴリのリンクリストへ</a></li>
+				<li><a accesskey="5" href="#aside">このカテゴリのリンクリストへ</a></li>
+				<li><a accesskey="6" href="#sitemap">サイトマップへ移動</a></li>
+			</ul>
+			<a id="nav-open-btn" href="#"><img src="v2/cmn/img/navigation/btn_nav_open.png" alt="メニューを開く"></a>
+		</div>
+	</div>
+	<!-- /#header -->
+	<!-- #nav-wrap -->
+	<div id="nav-wrap">
+		<!-- #nav-area -->
+		<div id="nav-area">
+			<div id="nav-header">
+				<p id="nav-close-btn"><img src="v2/cmn/img/navigation/btn_menu_close.png" alt="メニューを閉じる"></p>
+				<p id="nav-title"><img src="v2/cmn/img/navigation/tit_menu.png" alt="メニュー"></p>
+			</div>
+			<!-- .nav-contents -->
+			<div class="nav-contents">
+			    <ul class="global-navi">
+			        <li class="company global-navi-item" id="global-navi-item_company">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_company.png" alt="会社案内"></a>
+			        </li>
+			        <li class="ir global-navi-item" id="global-navi-item_ir">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_ir.png" alt="投資家情報"></a>
+			        </li>
+			        <li class="recruit global-navi-item" id="global-navi-item_recruit">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_recruit.png" alt="採用情報"></a>
+			        </li>
+			        <li class="brands global-navi-item" id="global-navi-item_brands">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_brands.png" alt="ブランド"></a>
+			        </li>
+			        <li class="csr global-navi-item" id="global-navi-item_csr">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_csr.png" alt="CSR／環境"></a>
+			        </li>
+			        <li class="rd global-navi-item" id="global-navi-item_rd">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_rd.png" alt="安心・安全/研究開発"></a>
+			        </li>
+			        <li class="beauty-art global-navi-item" id="global-navi-item_beauty-art">
+			            <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_beauty-art.png" alt="ビューティー / アート"></a>
+			        </li>
+			    </ul>
+			    <div class="sub_button">
+			        <ul class="nav utility">
+			            <li class="newsrelease">
+			                <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_newsrelease.png" class="imgover" data-osrc="/v2/cmn/img/navigation/txt_newsrelease.png" data-hsrc="v2/cmn/img/navigation/txt_newsrelease_r.png" alt="ニュースリリース" /></a>
+			            </li>
+			            <li class="customer">
+			                <a href="javascript:;"><img src="v2/cmn/img/navigation/txt_customer.png" class="imgover" data-osrc="/v2/cmn/img/navigation/txt_customer.png" data-hsrc="v2/cmn/img/navigation/txt_customer_r.png" alt="お問い合わせ" /></a>
+			            </li>
+			            <li class="product_info">
+			            	<a href="javascript:;" onclick="RTmetricsSend('javascript:;')" target="_blank">
+			            		<span>
+			            			<img class="imgover" data-osrc="v2/cmn/img/navigation/logo_productinfo.png" data-hsrc="v2/cmn/img/navigation/logo_productinfo_r.png" src="v2/cmn/img/navigation/logo_productinfo.png" alt="ワタシプラス" />
+			            		</span>
+			            	</a>
+			            </li>
+			        </ul>
+			        <form method="get" action="#" class="search-box">
+			            <fieldset>
+			                <legend>キーワード検索入力フォーム</legend>
+			                <label for="MF_form_phrase" class="vanish">キーワード</label>
+			                <input type="text" size="15" maxlength="40" name="q" class="onblur middle" value="" onblur="if (value == '') {value = '';this.className='onblur middle';}" onfocus="if (value == '') {value ='';this.className='onfocus middle';}" />
+			                <!--
+							-->
+			                <input type="image" name="br_search" src="v2/cmn/img/navigation/btn_search.png" alt="検索" class="searchBtn middle" />
+			                <input type="hidden" name="ie" value="UTF-8" />
+			                <input type="hidden" name="page" value="1" />
+			                <input type="hidden" name="site" value="" />
+			            </fieldset>
+			        </form>
+			        <ul class="nav utility language">
+			            <li class="english">
+			                <a href="javascript:;" target="_blank" onclick="RTmetricsSend('url')">
+			                	<img src="v2/cmn/img/navigation/txt_english.png" class="imgover" alt="Global(English)" />
+			                </a>
+			            </li>
+			            <li class="chinese">
+			                <a href="javascript:;" target="_blank" onclick="RTmetricsSend('url')">
+			                	<img src="v2/cmn/img/navigation/txt_chinese.png" class="imgover" alt="China(簡体中文)" />
+			                </a>
+			            </li>
+			        </ul>
+			    </div>
+			</div>
+			<!-- /.nav-contents -->
+		</div>
+		<!-- /#nav-area -->
+	</div>
+	<!-- /#nav-wrap -->
+	<div id="contents">
+		<!-- mainview -->
+		<div id="mainview">
+			<!-- mainview : wrapper -->
+			<div id="mainview_wrap">
+				<div id="mainview_container" class="cfx">
+						<!-- item : 01 -->
+					<div class="item">
+						<a href="/javascript:;" class="item_wrap cfx">
+							<div class="img"><img src="img/index/mainview_img10.jpg" alt="「世界で最も倫理的な企業」に5年連続で選出" width="100%"></div>
+							<div class="content">
+								<div class="context">
+									<p class="img_ttl">
+										<span class="pc"><img src="img/index/mainview_txt10.png" alt="「世界で最も倫理的な企業」に5年連続で選出" height="71" width="368"></span>
+										<span class="sp"><img src="img/index/mainview_txt10.png" alt="「世界で最も倫理的な企業」に5年連続で選出" height="40" width="207"></span>
+									</p>
+									<!-- <p class="ttl"></p> -->
+									<!-- <p class="lead"></p> -->
+								</div>
+							</div>
+						</a>
+					</div>
+						<!-- item : 02 -->
+					<div class="item">
+						<a href="javascript:;" class="item_wrap cfx">
+							<div class="img"><img src="img/index/mainview_img05.jpg" alt="2017年度定期採用プレエントリー受付開始" width="100%"></div>
+							<div class="content">
+								<div class="context">
+									<p class="img_ttl">
+										<span class="pc"><img src="img/index/mainview_txt05.png" alt="2017年度定期採用プレエントリー受付開始" height="71" width="290"></span>
+										<span class="sp"><img src="img/index/mainview_txt05.png" alt="2017年度定期採用プレエントリー受付開始" height="40" width="163"></span>
+									</p>
+									<!-- <p class="ttl"></p> -->
+									<!-- <p class="lead"></p> -->
+								</div>
+							</div>
+						</a>
+					</div>
+						<!-- item : 03 -->
+					<div class="item">
+						<a href="javascript:;" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&amp;path=/top/mainview/&amp;fno=003')" class="item_wrap cfx" target="_blank">
+							<div class="img"><img src="img/index/mainview_img08.jpg" alt="TSUBAKI誕生10周年記念 蜷川実花さんとのスペシャルコラボ限定品発売" width="100%"></div>
+							<div class="content">
+								<div class="context">
+									<p class="img_ttl">
+										<span class="pc"><img src="img/index/mainview_txt08.png" alt="TSUBAKI誕生10周年記念 蜷川実花さんとのスペシャルコラボ限定品発売" height="113" width="409"></span>
+										<span class="sp"><img src="img/index/mainview_txt08.png" alt="TSUBAKI誕生10周年記念 蜷川実花さんとのスペシャルコラボ限定品発売" height="56" width="202"></span>
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>	
+						
+				<!-- blank -->
+					<div class="blank"><img src="img/index/mainview_blank.gif" width="100%"></div>
+				</div>
+			</div>
+			<!-- mainview : pager -->
+			<div id="mainview_pager">
+				<ul class="cfx"></ul>
+			</div>
+		</div><!-- /#mainview -->
+			<!-- news -->
+		<div id="news">
+			<h2 class="section_header"><span>NEWS</span></h2>
+			<div id="news_wrap" class="cfx">
+				<div class="item first">
+					<a href="javascript:;" onclick="RTmetricsSend('javascript:;')" class="item_wrap external" target="_blank">
+						<p class="img"><img src="img/index/news_img01.jpg" alt="【商品・美容情報】  春の化粧品デー&#9834;ワタシプラスポイント10%還元！3/31まで！" width="100%"></p>
+						<p class="context">
+							<span class="date">2016.3.16</span>
+							<span class="ttl"><i>【商品・美容情報】 春の化粧品デー&#9834;ワタシプラスポイント10%還元！3/31まで！</i></span>
+						</p>
+					</a>
+				</div>
+				
+				<div class="item">
+					<a href="javascript:;" class="item_wrap">
+						<p class="img"><img src="img/index/news_img05.jpg" alt="子ども向けイベント「見えない光　紫外線のヒミツ展」　3/19-4/3に科学技術館で開催<" width="100%"></p>
+						<p class="context">
+							<span class="date">2016.3.16</span>
+							<span class="ttl"><i>子ども向けイベント「見えない光　紫外線のヒミツ展」　3/19-4/3に科学技術館で開催</i></span>
+						</p>
+					</a>
+				</div>
+				<div class="item">
+					<a href="javascript:;" onclick="RTmetricsSend('url')" class="item_wrap external" target="_blank">
+							<p class="img">
+								<img src="img/index/news_img04.jpg" alt="資生堂美容技術専門学校で、全学生参加の美容技術コンテスト「スチューデントカップ」を開催" width="100%">
+		
+							</p>
+							<p class="context">
+								<span class="date">2016.3.9</span>
+								<span class="ttl"><i>資生堂美容技術専門学校で、全学生参加の美容技術コンテスト「スチューデントカップ」を開催</i></span>
+							</p>
+						</a>
+					</div>
+					<div class="item">
+						<a href="javascript:;" class="item_wrap" >
+							<p class="img"><img src="img/index/news_img02.jpg" alt="「SHISEIDO」、ブランドイノベーションで新たなステージへ本格稼動" width="100%"></p>
+							<p class="context">
+								<span class="date">2016.3.1</span>
+								<span class="ttl"><i>「SHISEIDO」、ブランドイノベーションで新たなステージへ本格稼動</i></span>
+							</p>
+						</a>
+					</div>					
+					<div class="item">
+						<a href="javascript:;" onclick="url')" class="item_wrap external" target="_blank">
+							<p class="img"><img src="img/index/news_img03.jpg" alt="資生堂社会福祉事業財団 児童養護施設入所児童・里子の18歳の自立のために「社会への巣立ちフェスティバル」を開催" width="100%"></p>
+							<p class="context">
+								<span class="date">2016.2.28</span>
+								<span class="ttl">
+									<i>資生堂社会福祉事業財団
+									<br />児童養護施設入所児童・里子の18歳の自立のために「社会への巣立ちフェスティバル」を開催</i>
+								</span>
+							</p>
+						</a>
+					</div>
+				</div>
+			</div><!-- /#news -->
+
+			<!-- whoweare -->
+			<div id="whoweare">
+				<div id="whoweare_outer">
+					<h2 class="section_header"><span class="i">資生堂とは</span></h2>
+					<div id="whoweare_wrap" class="cfx"></div>
+					<div id="whoweare_karakusa"></div>
+				</div>
+			</div><!-- /#whoweare -->
+
+			<!-- recommend -->
+			<div id="recommend">
+				<h2 class="section_header"><span class="i">おすすめコンテンツ</span></h2>
+				<div id="recommend_wrap" class="cfx"></div>
+				<!-- recommend : template -->
+				<div id="recommend_tmpl">
+					<div class="item">
+						<a href="#" class="item_wrap">
+							<span class="img"><img width="100%"></span>
+							<span class="ttl"><i></i></span>
+							<span class="txt"></span>
+						</a>
+					</div>
+				</div>
+			</div><!-- /#recommend -->
+
+			<!-- brands -->
+			<div id="brands">
+				<h2 class="section_header"><span>ブランド</span></h2>
+				<div id="brands_wrap" class="cfx"></div>
+				<div class="section_footer cfx">
+					<a href="javascript:;" class="btn_open"><span>主なブランド一覧をみる</span></a>
+				</div>
+				<div id="brands_list"></div>
+			</div><!-- /#brands -->
+
+			<!-- feeds -->
+			<div id="feeds" class="cfx">
+
+				<!-- contents -->
+				<div id="feeds_contents" class="focus">
+					<!-- feeds_contents : wrapper -->
+					<div class="section_wrap">
+						<div class="section_header cfx">
+							<h2 class="ttl"><span>コンテンツ新着情報</span></h2>
+						</div>
+						<div class="section_container"></div>
+						<div class="section_footer cfx">
+							<p class="rss"><a href="/rss/index.xml">RSS</a></p>
+							<p class="link"><a href="/hot-news.html"><span>一覧へ</span></a></p>
+						</div>
+					</div>
+					<!-- feeds_contents : template -->
+					<div class="section_tmpl">
+							<div class="item">
+								<a href="group-hot-news.html" class="item_wrap">
+									<dl class="cfx">
+										<dt class="date"></dt>
+										<dd class="label"></dd>
+									</dl>
+									<span class="txt"><i></i></span>
+								</a>
+							</div>
+					</div>
+				</div><!-- /#feeds_contents -->
+
+				<!-- news -->
+				<div id="feeds_news">
+					<!-- feeds_news : wrapper -->
+					<div class="section_wrap">
+						<div class="section_header">
+							<h2 class="ttl"><span>ニュースリリース</span></h2>
+						</div>
+						<div class="section_container"></div>
+						<div class="section_footer cfx">
+							<p class="rss"><a href="/rss/corp_news/index.xml"><span>RSS</span></a></p>
+							<p class="link"><a href="/news/"><span>一覧へ</span></a></p>
+						</div>
+					</div>
+					<!-- feeds_news : template -->
+					<div class="section_tmpl">
+							<div class="item">
+								<a href="#" class="item_wrap">
+									<dl class="cfx">
+										<dt class="date"></dt>
+										<dd class="label"></dd>
+									</dl>
+									<span class="txt"><i></i></span>
+								</a>
+							</div>
+					</div>
+				</div><!-- /#feeds_news -->
+
+				<!-- groupnews -->
+				<div id="feeds_groupnews">
+					<!-- feeds_groupnews : wrapper -->
+					<div class="section_wrap">
+						<div class="section_header cfx">
+							<h2 class="ttl"><span>グループ会社新着情報</span></h2>
+						</div>
+						<div class="section_container"></div>
+						<div class="section_footer cfx">
+							<p class="rss"><a href="/rss/corp_group/index.xml">RSS</a></p>
+							<p class="link"><a href="/group-hot-news.html"><span>一覧へ</span></a></p>
+						</div>
+					</div>
+					<!-- feeds_groupnews : template -->
+					<div class="section_tmpl">
+							<div class="item">
+								<a href="#" class="item_wrap">
+									<dl class="cfx">
+										<dt class="date"></dt>
+										<dd class="label"></dd>
+									</dl>
+									<span class="txt"><i></i></span>
+								</a>
+							</div>
+					</div>
+				</div><!-- /#feeds_groupnews -->
+
+			</div><!-- /#feeds -->
+
+			<!-- media -->
+			<div id="media">
+				<p class="ttl"><span class="i">資生堂ソーシャルメディア</span></p>
+				<div class="section_container cfx">
+					<p class="link_youtube"><a href="javascript:;" target="_blank" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&amp;path=/top/youtube/&amp;fno=001')"><span>YouTube公式チャンネル<img src="cmn/img/icon_outside.png" width="10" height="8" alt="（別ウィンドウが開きます。）" class="outside"></span></a></p>
+					<p class="link_facebook"><a href="javascript:;" target="_blank" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&amp;path=/top/facebook/&amp;fno=001')" ><span>公式Facebookページ<img src="cmn/img/icon_outside.png" width="10" height="8" alt="（別ウィンドウが開きます。）" class="outside"></span></a></p>
+					<p class="link_twitter"><a href="javascript:;" target="_blank" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&amp;path=/top/twitter/&amp;fno=001')" ><span>公式Twitterアカウント<img src="cmn/img/icon_outside.png" width="10" height="8" alt="（別ウィンドウが開きます。）" class="outside"></span></a></p>
+					<p class="link_kireiro"><a href="http://snsmatome.shiseidogroup.jp/?rt_bt=top-sns-kireiro" target="_blank"><span class="i">KIREIRO</span></a></p>
+				</div>
+			</div><!-- /#media -->
+
+			<!-- warning_message -->
+			<div id="warning_message">
+
+			<!-- <div class="maintenance ta-center mt20 mb30">
+				<p>下記日程で、サーバーメンテナンスのため、ニュースやフォーム等のサービスを停止いたします。<br />
+					ご迷惑をおかけしますが、ご了承いただきますようお願い申し上げます。<br />
+					2016/2/2　午前1:00 – 午前4:00
+				</p>
+			</div> -->
+	            <p class="txt"><a href="/inquiry/news/detail.html?id=113"><span class="warning_icon"><img src="img/top/icon_attention.png" height="14" width="14" alt=""></span>当社名を無断使用した投資勧誘等に<br class="type-sp">ご注意ください</a></p>
+	        </div>
+			<!-- /#warning_message -->
+
+			<div id="extra-tools">
+				<div id="tools">
+					<ul class="tools_menu">
+						<li><a href="javascript:void(0);" onclick="window.open('http://mixi.jp/share.pl?u=' + encodeURIComponent(document.location.href) + '&amp;k=84be0df49b7e645632e3bcfa8827f7f3bdfda533','share',['width=632','height=456','location=yes','resizable=yes','toolbar=no','menubar=no','scrollbars=no','status=no'].join(','));"><img src="/v2/cmn/img/btn_sns_mixi.png" class="imgover" alt="mixi" /></a></li>
+				
+						<li><a href="javascript:void(0);" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.location.href), '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><img src="/v2/cmn/img/btn_sns_google.png" class="imgover" alt="Google＋"></a></li>
+				
+						<li><a class="fb-like" href="javascript:void(0);" onclick="window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent(document.location.href) ,null ,'width=650 ,height=450'); return false;" rel="nofollow"><img src="/v2/cmn/img/btn_sns_facebook.png" class="imgover" alt="Facebook"></a></li>
+				
+						<li><a href="javascript:void(0);" onclick="window.open('http://twitter.com/share?url=' + encodeURIComponent(document.location.href) + '&amp;text=' + encodeURIComponent(document.title), '', 'width=632, height=456, menubar=no, toolbar=no, scrollbars=yes');"><img src="/v2/cmn/img/btn_sns_twitter.png" class="imgover" alt="Twitter"  /></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- /#contents -->
+		<div id="footer-global-navi">
+			<!-- .nav-contents -->
+			<div class="nav-contents">
+			    <ul class="global-navi">
+			        <li class="company global-navi-item" id="global-navi-item_company">
+			            <a href="#"><img src="v2/cmn/img/navigation/txt_company.png" alt="会社案内"></a>
+			        </li>
+			        <li class="ir global-navi-item" id="global-navi-item_ir">
+			            <a href="#"><img src="v2/cmn/img/navigation/txt_ir.png" alt="投資家情報"></a>
+			        </li>
+			        <li class="recruit global-navi-item" id="global-navi-item_recruit">
+			            <a href="#"><img src="v2/cmn/img/navigation/txt_recruit.png" alt="採用情報"></a>
+			        </li>
+			        <li class="brands global-navi-item" id="global-navi-item_brands">
+			            <a href=""><img src="v2/cmn/img/navigation/txt_brands.png" alt="ブランド"></a>
+			        </li>
+			        <li class="csr global-navi-item" id="global-navi-item_csr">
+			            <a href=""><img src="v2/cmn/img/navigation/txt_csr.png" alt="CSR／環境"></a>
+			        </li>
+			        <li class="rd global-navi-item" id="global-navi-item_rd">
+			            <a href="#"><img src="v2/cmn/img/navigation/txt_rd.png" alt="安心・安全/研究開発"></a>
+			        </li>
+			        <li class="beauty-art global-navi-item" id="global-navi-item_beauty-art">
+			            <a href="#"><img src="v2/cmn/img/navigation/txt_beauty-art.png" alt="ビューティー / アート"></a>
+			        </li>
+			    </ul>
+			    <div class="sub_button">
+			        <ul class="nav utility">
+			            <li class="newsrelease">
+			                <a href="#"><img src="v2/cmn/img/navigation/txt_newsrelease.png" class="imgover" data-osrc="/v2/cmn/img/navigation/txt_newsrelease.png" data-hsrc="/v2/cmn/img/navigation/txt_newsrelease_r.png" alt="ニュースリリース" /></a>
+			            </li>
+			            <li class="customer">
+			                <a href="#"><img src="v2/cmn/img/navigation/txt_customer.png" class="imgover" data-osrc="/v2/cmn/img/navigation/txt_customer.png" data-hsrc="/v2/cmn/img/navigation/txt_customer_r.png" alt="お問い合わせ" /></a>
+			            </li>
+			            <li class="product_info"><a href="#" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&path=/menu/watashi/&fno=001')" target="_blank"><span><img class="imgover" data-osrc="v2/cmn/img/navigation/logo_productinfo.png" data-hsrc="v2/cmn/img/navigation/logo_productinfo_r.png" src="v2/cmn/img/navigation/logo_productinfo.png" alt="ワタシプラス" /></span></a></li>
+			        </ul>
+			        <form method="get" action="#" class="search-box">
+			            <fieldset>
+			                <legend>キーワード検索入力フォーム</legend>
+			                <label for="MF_form_phrase" class="vanish">キーワード</label>
+			                <input type="text" size="15" maxlength="40" name="q" class="onblur middle" value="" onblur="if (value == '') {value = '';this.className='onblur middle';}" onfocus="if (value == '') {value ='';this.className='onfocus middle';}" />
+			                <!--
+							-->
+			                <input type="image" name="br_search" src="v2/cmn/img/navigation/btn_search.png" alt="検索" class="searchBtn middle" />
+			                <input type="hidden" name="ie" value="UTF-8" />
+			                <input type="hidden" name="page" value="1" />
+			                <input type="hidden" name="site" value="" />
+			            </fieldset>
+			        </form>
+			        <ul class="nav utility language">
+			            <li class="english">
+			                <a href="#" target="_blank" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&path=/menu/global/&fno=001')"><img src="v2/cmn/img/navigation/txt_english.png" class="imgover" alt="Global(English)" /></a>
+			            </li>
+			            <li class="chinese">
+			                <a href="#" target="_blank" onclick="RTmetricsSend('http://www.shiseidogroup.jp/tag/TAG.jpg?host=www.shiseidogroup.jp&path=/menu/china/&fno=001')"><img src="v2/cmn/img/navigation/txt_chinese.png" class="imgover" alt="China(簡体中文)" /></a>
+			            </li>
+			        </ul>
+			    </div>
+			</div>
+			<!-- /.nav-contents -->
+			<div id="fix-pagetop"><a href="#"><img src="v2/cmn/img/btn_pagetop_sp.png"></a></div>
+		</div>
+		<!-- #footer -->
+		<div id="footer">
+			<div class="wrap group">
+				<ul class="nav utility group first-child">
+					<li class="first-child"><a href="#">メルマガ・会員登録</a></li>
+					<li><a href="#">利用規約</a></li>
+					<li><a href="#">個人情報について</a></li>
+					<li><a href="#">ソーシャルメディアポリシー</a></li>
+					<li class="sitemap" id="footer_btn_sitemap"><a href="#sitemap">サイトマップ</a></li>
+				</ul>
+				<p class="copyright small"><span>&copy;</span> 1995-2016 Shiseido Co.,Ltd. All Rights Reserved.</p>
+			</div><!-- /#footer > .wrap -->
+		</div><!-- /#footer -->
+		<div id="sitemap">
+			<noscript>
+				<p>このメッセージは、Javascriptが有効でない場合に表示されます。<br />
+					サイトマップの表示にはJavascriptが使われています。Javascriptを有効にした上で再度ご確認をお願いいたします。</p>
+			</noscript>
+		</div>
+		<script src="v2/cmn/js/sitemap.js"></script>
+		<!-- /#footer -->
+		
+		<!-- User Insight PCDF Code Start : shiseidogroup.jp -->
+		<script type="text/javascript">
+		<!--
+		var _uic = _uic ||{}; var _uih = _uih ||{};_uih['id'] = 50580;
+		_uih['lg_id'] = '';
+		_uih['fb_id'] = '';
+		_uih['tw_id'] = '';
+		_uih['uigr_1'] = ''; _uih['uigr_2'] = ''; _uih['uigr_3'] = '';
+		_uih['uigr_4'] = ''; _uih['uigr_5'] = '';
+		_uih['uigr_6'] = ''; _uih['uigr_7'] = ''; _uih['uigr_8'] = '';
+		_uih['uigr_9'] = ''; _uih['uigr_10'] = '';
+		/* DO NOT ALTER BELOW THIS LINE */
+		/* WITH FIRST PARTY COOKIE */
+		(function() {
+			var bi = document.createElement('scri'+'pt');bi.type ='text/javascript';
+			bi.async = true;
+			bi.src = ('https:' == document.location.protocol ? 'https://bs' :'http://c') + '.nakanohito.jp/b3/bi.js';
+			var s =	document.getElementsByTagName('scri'+'pt')[0];
+			s.parentNode.insertBefore(bi,s);
+			})();
+		//-->
+		</script>
+		<!-- User Insight PCDF Code End : shiseidogroup.jp -->
+	</div>
+</div>
+
+<!-- javascript -->
+<!--[if lt IE 9]><script src="v2/cmn/js/html5shiv.js"></script><![endif]-->
+<script src="cmn/js/jquery.easing.1.3.js" charset="UTF-8"></script>
+<script src="cmn/js/rollover.js" charset="UTF-8"></script>
+<script src="cmn/js/utility.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/config.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/utility.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/NavigationCtrl.js" charset="UTF-8"></script>
+<script src="v2/cmn/js/NavigationStateCtrl.js" charset="UTF-8"></script>
+<!-- <script src="/v2/cmn/js/ViewportCtrl.js" charset="UTF-8"></script> -->
+<script src="v2/cmn/js/megadropdown.js" charset="UTF-8"></script>
+<!-- <script src="/v2/cmn/js/PagetopButtonCtrl_top.js" charset="UTF-8"></script> -->
+<script src="js/index.js" charset="UTF-8"></script>
+
+<script src="shared/mf/js/suggest_ext.js" type="text/javascript" charset="UTF-8"></script>
+
+</body>
+
+</html>
